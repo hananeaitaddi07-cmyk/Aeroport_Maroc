@@ -71,7 +71,7 @@ var style_Aearoports_MAR_2 = function(feature, resolution){
     var style = [ new ol.style.Style({
         image: new ol.style.Icon({
                   imgSize: [580, 580],
-                  scale: 0.02586206896551724,
+                  scale: 0.04482758620689655,
                   anchor: [290.0, 290.0],
                   anchorXUnits: "pixels",
                   anchorYUnits: "pixels",

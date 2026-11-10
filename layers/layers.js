@@ -63,10 +63,10 @@ var layersList = [group_Limit,group_Transport];
 lyr_Regions_MAR_0.set('fieldAliases', {'OBJECTID': 'OBJECTID', 'CODE_REGIO': 'CODE_REGIO', 'Nom_Region': 'Nom_Region', 'Population': 'Population', 'Menages': 'Menages', 'Etrangers': 'Etrangers', 'Marocains': 'Marocains', 'Non_ar': 'Non_ar', });
 lyr_Limites_MAR_1.set('fieldAliases', {'OBJECTID': 'OBJECTID', });
 lyr_Aearoports_MAR_2.set('fieldAliases', {'Nom_fr': 'Nom_fr', 'Nom_ar': 'Nom_ar', 'iata': 'iata', 'capacite': 'capacite', 'CapaAero-Feuil1_capacite': 'CapaAero-Feuil1_capacite', });
-lyr_Regions_MAR_0.set('fieldImages', {'OBJECTID': '', 'CODE_REGIO': '', 'Nom_Region': '', 'Population': '', 'Menages': '', 'Etrangers': '', 'Marocains': '', 'Non_ar': '', });
+lyr_Regions_MAR_0.set('fieldImages', {'OBJECTID': 'TextEdit', 'CODE_REGIO': 'TextEdit', 'Nom_Region': 'TextEdit', 'Population': 'TextEdit', 'Menages': 'TextEdit', 'Etrangers': 'TextEdit', 'Marocains': 'TextEdit', 'Non_ar': 'TextEdit', });
 lyr_Limites_MAR_1.set('fieldImages', {'OBJECTID': 'TextEdit', });
 lyr_Aearoports_MAR_2.set('fieldImages', {'Nom_fr': 'TextEdit', 'Nom_ar': 'TextEdit', 'iata': 'TextEdit', 'capacite': 'TextEdit', 'CapaAero-Feuil1_capacite': 'Range', });
-lyr_Regions_MAR_0.set('fieldLabels', {'OBJECTID': 'hidden field', 'CODE_REGIO': 'inline label - visible with data', 'Nom_Region': 'header label - visible with data', 'Population': 'no label', 'Menages': 'no label', 'Etrangers': 'no label', 'Marocains': 'no label', 'Non_ar': 'no label', });
+lyr_Regions_MAR_0.set('fieldLabels', {'OBJECTID': 'hidden field', 'CODE_REGIO': 'no label', 'Nom_Region': 'no label', 'Population': 'no label', 'Menages': 'no label', 'Etrangers': 'no label', 'Marocains': 'no label', 'Non_ar': 'no label', });
 lyr_Limites_MAR_1.set('fieldLabels', {'OBJECTID': 'header label - always visible', });
 lyr_Aearoports_MAR_2.set('fieldLabels', {'Nom_fr': 'inline label - always visible', 'Nom_ar': 'no label', 'iata': 'no label', 'capacite': 'no label', 'CapaAero-Feuil1_capacite': 'no label', });
 lyr_Aearoports_MAR_2.on('precompose', function(evt) {
